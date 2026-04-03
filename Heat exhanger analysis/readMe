@@ -1,0 +1,60 @@
+Heat Exchanger Performance Analysis using Python
+
+Project Overview
+This project focuses on analyzing the performance of a heat exchanger using basic principles of heat transfer. The analysis is performed using Python by processing temperature and flow rate data to calculate heat transfer rates and effectiveness.
+
+Objectives
+
+Calculate heat transfer rate (Q) for hot and cold fluids
+Determine the effectiveness (ε) of the heat exchanger
+Visualize performance using graphs
+Understand basic heat exchanger behavior through data analysis
+
+Concepts Used
+
+Heat Transfer
+Energy Balance
+Effectiveness of Heat Exchanger
+Basic Thermodynamics
+
+Dataset
+The dataset contains:
+
+Hot fluid inlet and outlet temperatures
+Cold fluid inlet and outlet temperatures
+Mass flow rates
+
+Example data row:
+Th_in = 80, Th_out = 60, Tc_in = 30, Tc_out = 45, m_hot = 1, m_cold = 1
+
+Methodology
+
+Heat Transfer Calculation
+Heat transfer rate is calculated using:
+Q = m × Cp × ΔT
+
+Where:
+m = mass flow rate (kg/s)
+Cp = specific heat capacity (J/kg·K)
+ΔT = temperature difference
+
+Effectiveness Calculation
+Effectiveness is calculated using:
+ε = Q_actual / Q_max
+
+Where:
+Q_max = C_min × (Th_in − Tc_in)
+
+Tools and Technologies
+
+Python
+pandas (data handling)
+numpy (calculations)
+matplotlib (visualization)
+
+Results
+The project generates:
+
+Heat transfer rate (Q) for each dataset
+Effectiveness (ε) of the heat exchanger
+Graphs of heat transfer and effectiveness
